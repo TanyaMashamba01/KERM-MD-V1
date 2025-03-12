@@ -16,7 +16,7 @@ Github: Kgtech-cmr
 cmd({
     pattern: "owner",
     react: "👑", // Reaction emoji when the command is triggered
-    alias: ["kerm"],
+    alias: ["𝗝𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼"],
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -24,8 +24,8 @@ cmd({
 async (conn, mek, m, { from }) => {
     try {
         // Owner's contact info
-        const ownerNumber = '+237656520674'; // Replace this with the actual owner number
-        const ownerName = '༒𝐋𝐎𝐑𝐃 𝐊𝐄𝐑𝐌༒'; // Replace this with the owner's name
+        const ownerNumber = '+263716729222'; // Replace this with the actual owner number
+        const ownerName = '༒𝐋𝐎𝐑𝐃 𝗝𝗢𝗦𝗛𝗨𝗔𝗠𝗔𝗠𝗕𝗢༒'; // Replace this with the owner's name
         const organization = 'UD TEAM'; // Optional: replace with the owner's organization
 
         // Create a vCard (contact card) for the owner
@@ -48,7 +48,7 @@ async (conn, mek, m, { from }) => {
         await conn.sendMessage(from, {
             text: `This is the owner's contact: ${ownerName}`,
             contextInfo: {
-                mentionedJid: [ownerNumber.replace('+237656520674') + '+923096287432@s.whatsapp.net'], // Mention the owner
+                mentionedJid: [ownerNumber.replace('+263716729222') + '+923096287432@s.whatsapp.net'], // Mention the owner
                 quotedMessageId: sentVCard.key.id // Reference the vCard message
             }
         }, { quoted: mek });
@@ -66,7 +66,7 @@ const { cmd } = require('../command');
 cmd({
   pattern: "owner",
   react: "👑", 
-  alias: ["kerm"],
+  alias: ["Joshu"],
   desc: "Get owner number",
   category: "main",
   filename: __filename
@@ -74,7 +74,7 @@ cmd({
   try {
     // Propriétaires' informations de contact
     const owners = [
-      { number: '+237656520674', name: '༒𝐋𝐎𝐑𝐃 𝐊𝐄𝐑𝐌༒', organization: 'UD TEAM' },
+      { number: '+263716729222', name: '༒𝐋𝐎𝐑𝐃 𝗷𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼༒', organization: 'UD TEAM' },
       { number: '+237650564445', name: 'ᵏᵍᶠ┘𝐓𝐄𝐑𝐌𝐈𝐍𝐀𝐓𝐎𝐑', organization: 'UD TEAM' }
     ];
 
