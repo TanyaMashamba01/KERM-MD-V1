@@ -6,7 +6,7 @@ _  ______   _____ _____ _____ _   _
 |_|\_\____|   |_| |_____\____|_| |_|
 
 ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
+CONTACT ME HERE +263716729222
 YT: KermHackTools
 Github: Kgtech-cmr
 */
@@ -16,13 +16,13 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://i.ibb.co/dwCrqM45/lordkerm.jpg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://b.top4top.io/p_3291qwfqu0.jpg"; // Assurez-vous que cette URL est valide
 
 cmd({
     pattern: "alive",
     desc: "Check if the bot is active.",
     category: "info",
-    react: "💡",
+    react: "❤️‍🔥",
     filename: __filename
 }, async (conn, mek, m, { reply, from }) => {
     try {
@@ -36,13 +36,13 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-🌟 *KERM MD V1 STATUS* 🌟
+🌟 *JOSHKING MD V1 STATUS* 🌟
 Hi 🫵🏽 ${pushname}
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
 
-🤖 *Status*: *Kerm is Alive and Ready!*
+🤖 *Status*: *Joshuamambo1 is Alive and Ready!*
 
 🎉 *Enjoy the Service!*
         `.trim();
@@ -62,7 +62,7 @@ Hi 🫵🏽 ${pushname}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐊𝐄𝐑𝐌 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterName: 'ᴶᴼˢᴴᵁᴬᴹᴬᴹᴮᴼ',
                     serverMessageId: 143
                 }
             }
@@ -79,7 +79,7 @@ Hi 🫵🏽 ${pushname}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐊𝐄𝐑𝐌 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterName: 'ᴶᴼˢᴴᵁᴬᴹᴬᴹᴮᴼ',
                     serverMessageId: 143
                 }
             }
