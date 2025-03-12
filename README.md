@@ -5,7 +5,7 @@
 
 ----------
 
-<a><img src='https://i.imgur.com/Ip3ubrt.jpeg'/></a>
+<a><img src='https://b.top4top.io/p_3291qwfqu0.jpg'/></a>
 
 -------
 
@@ -91,7 +91,7 @@
 
 ------------
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/Kgtech-cmr/KERM-MD-V1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/TanyaMashamba01/KERM-MD-V1)
 
 ----------
 
