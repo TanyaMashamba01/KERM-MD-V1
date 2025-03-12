@@ -71,7 +71,7 @@ cmd({
 │
 ╰──────────────────────────╯
 
-*🌟Developed by KERM-MD-V1🌟*
+*🌟Developed by 𝗠𝗮𝗺𝗯𝗼-𝗠𝗗-𝗩𝟭🌟*
 `;
 
         // Send the settings message with the updated format
