@@ -18,7 +18,7 @@ const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
     pattern: "ping",
-    react: "📟",
+    react: "🇿🇼",
     alias: ["speed"],
     desc: "Check bot\'s ping",
     category: "main",
@@ -28,7 +28,7 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*_What the fuck🫦..._*'  }, { quoted: mek } )
+let ping = await conn.sendMessage(from , { text: '*_What is really going on with Joshuamambo1 NetKing 🫦..._*'  }, { quoted: mek } )
 var final = new Date().getTime();
 await conn.sendMessage(from, { delete: ping.key })
 return await conn.sendMessage(from , { text: '*📍Pong*\n *' + (final - inital) + ' ms📟*'  }, { quoted: mek } )
@@ -40,7 +40,7 @@ l(e)
 
 cmd({
     pattern: "ping2",
-    react: "♻️",
+    react: "❤️‍🔥",
     alias: ["speed"],
     desc: "Check bot\'s ping",
     category: "main",
@@ -50,7 +50,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '*_Pinging..._*' })
+        const message = await conn.sendMessage(from, { text: '*_Pinging.Joshuamambo.._*' })
         const endTime = Date.now()
         const ping = endTime - startTime
         await conn.sendMessage(from, { text: `*_🧞‍♂️Kerm Speed... : ${ping}ms_*`}, { quoted: message })
